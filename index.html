@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="header-container">
-            <img src="./image/headerbackground-min.png" alt="navi" height="150px" width="1440px">
+          
             <a href="/" class="logo">
                 <img src="./image/avatarlogo-min.png" alt="logo" class="img-logo" height="72px" width="186px">
             </a>
@@ -23,28 +26,28 @@
                     </a>
                 </li>
                 <li class="header-list-item">
-                    <a href="" class="header-list-link">
+                    <a href="" class="header-list-link header-link">
                         Про нас
                     </a>
                 </li>
                 <li class="header-list-item">
-                    <a href="" class="header-list-link">
+                    <a href="" class="header-list-link header-link">
                         Контакти
                     </a>
                 </li>
-                    <button class="button" type="button">
+                    <button class="button-header" type="button">
                         Увійти
                     </button>
-                    <img src="./image/ENG-min.png" alt="english">
-                    <img src="./image/Switcher-min.png" alt="switch">
-                    <img src="./image/UA-min.png" alt="ukraine">
+                    <img src="./image/ENG-min.png" alt="english" class="eng">
+                    <img src="./image/Switcher-min.png" alt="switch" class="switch">
+                    <img src="./image/UA-min.png" alt="ukraine" class="uk">
             </ul>
             </nav>
         </div>
     </header>
     <main class="main">
         <section class="hero">
-            <div class="container">
+            <div class="main-container">
                 <ul class="hero-list">
                     <li class="hero-item">
                         <p class="hero-text">
@@ -66,119 +69,132 @@
                         </p>
                     </li>
                     <li class="hero-item">
-                        <button type="button">
+                        <button type="button" class="button">
                             Приєднатися до клану
                         </button>
                     </li>
                     <li class="hero-item">
-                        <img src="./image/inst-min.png" alt="instagram" height="30px" width="30px">
+                        <img src="./image/inst-min.png" alt="instagram" height="30px" width="30px" class="instagram">
                     </li>
                     <li class="hero-item">
-                        <img src="./image/twitter-min.png" alt="twitter" height="30px" width="30px">
+                        <img src="./image/twitter-min.png" alt="twitter" height="30px" width="30px" class="twitter">
                     </li>
                     <li class="hero-item">
-                        <img src="./image/youtube-min.png" alt="youtube" height="30px" width="30px">
+                        <img src="./image/youtube-min.png" alt="youtube" height="30px" width="50px" class="youtube">
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </h2>
-                <p>Джейк Саллі</p>
+        <section class="section">
+            <div class="container1">
+                <h2 class="sub-title">
+                    “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” 
+                </h2>
+                <p class="mentor">Джейк Саллі</p>
             </div>
         </section>
-        <section>
-            <img src="./image/mainbackground1-min.png" alt="women and man navi" height="741px" width="1440px">
-            <a href="">Дивитись трейлер</a>
+        <section class="section">
+            <a href="https://youtu.be/tdBdkxwQY-Q?si=5qGnXjUfT2QhF0hj" class="trailer-link">
+                Дивитись трейлер
+            </a>
         </section>
-        <section>
-            <h2>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h2>
-            <p>Джейк Саллі</p>
+        <section class="section">
+            <div class="container2">
+            <h2 class="sub-title2">
+                “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+            </h2>
+            <p class="text-mentor">Джейк Саллі</p>
+            </div>
         </section>
-        <section>
-            <h2>Вчимо мову На’ві</h2>
-            <img src="./image/languagenavibackground-min.png" alt="islands" width="1440px" height="704px">
-            <ul>
-                <li>
-                    <p>
+        <section class="section">
+            <div class="container-language">
+            <h2 class="title-language">
+                Вчимо мову На’ві
+            </h2>
+            <ul class="language-list">
+                <li class="language-item">
+                    <p class="textukraine">
                         Привіт
                     </p>
-                    <p>
+                    <p class="textnavi">
                         Kaltxì
                     </p>
                 </li>
-                <li>
-                    <p>
+                <li class="language-item">
+                    <p class="textukraine">
                         Як справи?
                     </p>
-                    <p>
+                    <p class="textnavi">
                         Ngaru lu fpom srak?
                     </p>
                 </li>
-                <li>
-                    <p>
+                <li class="language-item">
+                    <p class="textukraine">
                         Все добре
                     </p>
-                    <p>
+                    <p class="textnavi">
                         Lu fpom
                     </p>
                 </li>
-                <li>
-                    <p>
+                <li class="language-item">
+                    <p class="textukraine">
                         Дякую
                     </p>
                     
-                    <p>
+                    <p class="textnavi">
                         Irayo si 
                     </p>
                 </li>
-                <li>
-                    <p>
+                <li class="language-item">
+                    <p class="textukraine">
                         Я бачу тебе
                     </p>
                     
-                    <p>
+                    <p class="textnavi">
                         Oel ngati kameie
                     </p>
                 </li>
-                <li>
-                    <p>
+                <li class="language-item">
+                    <p class="textukraine">
                         Слідуй за мною!
                     </p>
-                    <p>
+                    <p class="textnavi">
                         Nong oet!
                     </p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section>
-            <h2>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h2>
-            <p>Нейтірі</p>
+        <section class="section">
+            <div class="container3">
+            <h2 class="sub-title2">
+                “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
+            </h2>
+            <p class="text-mentor">Нейтірі</p>
+            </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <img src="./image/headerbackground-min.png" alt="navi" class="img-logo-footer" width="1440px" height="223px">
+    <footer class="footer">
+        <div class="container-footer">
         <a href="" class="logo-footer">
             <img src="./image/avatarlogo-min.png" alt="logo-footer" class="img-logo-footer" width="183px" height="70px">
         </a>
-        <ul>
-            <li>
-                <p>Q&A E-mail</p>
-                <a href="mailto:avatartwowqa@gmail.com">
+        <ul class="email-list">
+            <li class="email-item">
+                <p class="email-text">Q&A E-mail</p>
+                <a href="mailto:avatartwowqa@gmail.com" class="email-link">
                     avatartwowqa@gmail.com
                 </a>
             </li>
-            <li>
-                <p>Cooperation E-mail</p>
-                <a href="mailto:avatartwowcoop@gmail.com">
+            <li class="email-item">
+                <p class="email-text">Cooperation E-mail</p>
+                <a href="mailto:avatartwowcoop@gmail.com" class="email-link">
                     avatartwowcoop@gmail.com
                 </a>
             </li>
         </ul>
-        <small>
+        <small class="small">
             ©2023 Avatar: The Way Of Water. All rights reserved
         </small>
         </div>
