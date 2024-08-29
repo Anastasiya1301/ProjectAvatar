@@ -8,11 +8,12 @@
     --MainButtonColor:#0B0E66;
     --MainTextColor:#141414;
     --MainMentorColor:#000000;
-    --font-family:"Inter",san-serif;
-    --second-family: "Headland One",san-serif;
+  --font-family: "Inter", sans-serif;
+  --second-family: "HeadlandOne", sans-serif;
+  --third-family: "Hammersmith One", sans-serif;
 }
 .header-container{
-    background: url("/image/headerbackground-min.png");
+    background: url("../image/headerbackground-min.png");
     /*border-bottom: 3px solid #fff;
       width: 1440px;
       height: 150px;*/
