@@ -12,8 +12,8 @@
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
 }
-.header-container{
-    background: url("../image/headerbackground-min.png");
+.header{
+    background-image: url("../image/headerbackground-min.png");
     /*border-bottom: 3px solid #fff;
       width: 1440px;
       height: 150px;*/
