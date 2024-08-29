@@ -57,7 +57,7 @@
     border-color: var(--ButtonLineColor);
 }
 .main-container{
-    background: url(/image/mainbackground1-min.png);
+    background-image: url(../image/mainbackground1-min.png);
     width: 1440px;
     height: 740px;
 }
@@ -105,7 +105,7 @@
     color:var(--MainMentorColor);
 }
 .container-language{
-    background: url(/image/languagenavibackground-min.png);
+    background-image: url(../image/languagenavibackground-min.png);
 }
 .title-language{
     font-family: var(--second-family);
@@ -134,7 +134,7 @@
     background-color: var(--HeaderTextColor);
 }
 .container-footer{
-    background: url(/image/headerbackground-min.png);
+    background-image: url(../image/headerbackground-min.png);
 }
 .email-text{
     font-family: var(--font-family);
