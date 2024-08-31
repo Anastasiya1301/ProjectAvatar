@@ -14,9 +14,9 @@
 }
 .header{
     background-image: url("../image/headerbackground-min.png");
-    /*border-bottom: 3px solid #fff;
-      width: 1440px;
-      height: 150px;*/
+    width: 1440px;
+      height: 150px;
+    /*border-bottom: 3px solid #fff;*/
 }
 .header-list-link{
     font-family: var(--font-family);
@@ -56,12 +56,12 @@
     background-color: var(--MainButtonColor);
     border-color: var(--ButtonLineColor);
 }
-.main-container{
+.hero{
     background-image: url(../image/mainbackground1-min.png);
     width: 1440px;
     height: 740px;
 }
-.container1{
+.section1{
     background-color: var(--HeaderTextColor);
 }
 .sub-title{
@@ -78,6 +78,11 @@
     text-align: center;
     color:var(--MainMentorColor);
 }
+.section-trailer{
+    background-image: url(../image/mainbackgroundimg2-min.png);
+    width: 1440px;
+    height: 741px;
+}
 .trailer-link{
     font-family: var(--second-family);
     font-weight: 400;
@@ -87,7 +92,7 @@
     background-color: var(--MainButtonColor);
     border-color: var(--ButtonLineColor);
 }
-.container2{
+.section2{
     background-color: var(--HeaderTextColor);
 }
 .sub-title2{
@@ -104,8 +109,10 @@
     text-align: justify;
     color:var(--MainMentorColor);
 }
-.container-language{
+.section-language{
     background-image: url(../image/languagenavibackground-min.png);
+    width: 1440px;
+    height: 704px;
 }
 .title-language{
     font-family: var(--second-family);
@@ -130,11 +137,13 @@
     text-align: justify;
     color:var(--MainMentorColor);
 }
-.container3{
+.section3{
     background-color: var(--HeaderTextColor);
 }
-.container-footer{
+.footer{
     background-image: url(../image/headerbackground-min.png);
+    width: 1440px;
+    height: 223px;
 }
 .email-text{
     font-family: var(--font-family);
