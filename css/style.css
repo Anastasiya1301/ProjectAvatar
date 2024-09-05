@@ -18,6 +18,9 @@
       height: 150px;
     /*border-bottom: 3px solid #fff;*/
 }
+.header-list{
+    display: flex;
+}
 .header-list-link{
     font-family: var(--font-family);
     font-weight: 600;
