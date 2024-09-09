@@ -8,18 +8,27 @@
     --MainButtonColor:#0B0E66;
     --MainTextColor:#141414;
     --MainMentorColor:#000000;
+    --HeaderBackgroundColor:#2B4A61;
   --font-family: "Inter", sans-serif;
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
 }
 .header{
-    background-image: url("../image/headerbackground-min.png");
+    background-image: linear-gradient(to right,rgba(43, 74, 97, 0.871),rgba(43, 74, 97, 0.871)), url("../image/headerbackground-min.png");
     width: 1440px;
       height: 150px;
-    /*border-bottom: 3px solid #fff;*/
+    border-bottom: 3px solid #fff;
+}
+.img-logo{
+    width: 186px;
+    height: 72px;
+    margin-left: 204px;
+    margin-right: 1050px;
+    margin-top: 39px;
 }
 .header-list{
     display: flex;
+    justify-content: center;
 }
 .header-list-link{
     font-family: var(--font-family);
@@ -73,6 +82,10 @@
     font-size: 36px;
     text-align: justify;
     color:var(--MainText);
+    text-transform: uppercase;
+    
+    margin: 0;
+    text-align: center;
 }
 .mentor{
     font-family: var(--font-family);
@@ -104,6 +117,10 @@
     font-size: 36px;
     text-align: justify;
     color:var(--MainTextColor);
+    text-transform: uppercase;
+    width: 886;
+    height: 44;
+    
 }
 .text-mentor{
     font-family: var(--font-family);
@@ -140,6 +157,13 @@
     text-align: justify;
     color:var(--MainMentorColor);
 }
+.sub-title3{
+    width: 938;
+    height: 98;
+     margin: 0;
+    text-align: center;
+
+}
 .section3{
     background-color: var(--HeaderTextColor);
 }
@@ -161,6 +185,10 @@
     font-size: 20px;
     text-align: justify;
     color:var(--HeaderTextColor);
+}
+.img-logo-footer{
+    width: 183px;
+    height: 70px;
 }
 .small{
     font-family: var(--font-family);
