@@ -16,14 +16,13 @@
 .header{
     background-image: linear-gradient(to right,rgba(43, 74, 97, 0.871),rgba(43, 74, 97, 0.871)), url("../image/headerbackground-min.png");
     width: 1440px;
-      height: 150px;
     border-bottom: 3px solid #fff;
 }
 .img-logo{
     width: 186px;
     height: 72px;
-    margin-left: 204px;
-    margin-right: 1050px;
+    margin-left: 204;
+    margin-right: 105px;
     margin-top: 39px;
 }
 .header-list{
@@ -103,7 +102,7 @@
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 24px;
-    text-align: justify;
+    text-align: center;
     color: var(--ButtonLineColor);
     background-color: var(--MainButtonColor);
     border-color: var(--ButtonLineColor);
@@ -115,18 +114,19 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 36px;
-    text-align: justify;
+    text-align: center;
     color:var(--MainTextColor);
     text-transform: uppercase;
     width: 886;
     height: 44;
+    margin: 0 auto;
     
 }
 .text-mentor{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 24px;
-    text-align: justify;
+    text-align: center;
     color:var(--MainMentorColor);
 }
 .section-language{
@@ -138,8 +138,33 @@
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 32px;
-    text-align: justify;
+    text-align: center;
     color:var(--MainTextColor);
+
+}
+.language-list{
+    display: flex;
+}
+.arrowleft{
+    background-image: url(../image/arrowtjtheleft.png);
+    width: 152px;
+    height: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+.arrowright{
+    background-image: url(../image/arrowtotheright.png);
+    width: 152px;
+    height: 40px;
+    text-align: center;
+     margin-top: 150px;
+}
+.birdandarrows{
+    background-image: url(../image/birdandarrows.png);
+    width: 152px;
+    height: 40px;
+    text-align: center;
+     margin-top: 150px;
 }
 .textukraine{
     font-family: var(--second-family);
@@ -158,17 +183,23 @@
     color:var(--MainMentorColor);
 }
 .sub-title3{
-    width: 938;
-    height: 98;
+    width: 938px;
+    height: 92px;
      margin: 0;
     text-align: center;
-
+    
+}
+.container{
+    justify-content: center;
+    padding: 15px;
+    width: 1032px;
+    margin: 0 auto;
 }
 .section3{
     background-color: var(--HeaderTextColor);
 }
 .footer{
-    background-image: url(../image/headerbackground-min.png);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../image/headerbackground-min.png);
     width: 1440px;
     height: 223px;
 }
@@ -194,6 +225,6 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
-    text-align: justify;
+    text-align: center;
     color:var(--HeaderTextColor);
 }
