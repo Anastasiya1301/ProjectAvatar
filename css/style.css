@@ -18,6 +18,9 @@
     width: 1440px;
     border-bottom: 3px solid #fff;
 }
+.header-position{
+    display: flex;
+}
 .img-logo{
     width: 186px;
     height: 72px;
@@ -28,6 +31,10 @@
 .header-list{
     display: flex;
     justify-content: center;
+
+}
+.header-list-item + .header-list-item{
+    margin-left: 50px;
 }
 .header-list-link{
     font-family: var(--font-family);
@@ -83,7 +90,7 @@
     color:var(--MainText);
     text-transform: uppercase;
     
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
 }
 .mentor{
@@ -185,9 +192,7 @@
 .sub-title3{
     width: 938px;
     height: 92px;
-     margin: 0;
     text-align: center;
-    
 }
 .container{
     justify-content: center;
