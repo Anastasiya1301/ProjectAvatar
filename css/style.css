@@ -13,42 +13,54 @@
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
 }
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1032px;
+    margin: 0 auto;
+}
 .header{
     background-image: linear-gradient(to right,rgba(43, 74, 97, 0.871),rgba(43, 74, 97, 0.871)), url("../image/headerbackground-min.png");
     width: 1440px;
     border-bottom: 3px solid #fff;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    display: flex;
+    align-items: center;
+    padding-left: 204px;
+    padding-right: 48px;
 }
 .header-position{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .img-logo{
-    width: 186px;
-    height: 72px;
-    margin-left: 204;
-    margin-right: 105px;
-    margin-top: 39px;
 }
 .header-list{
     display: flex;
     justify-content: center;
-
 }
 .header-list-item + .header-list-item{
     margin-left: 50px;
 }
-.header-list-link{
+/* .header-list-link{
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 20px;
     text-align: center;
     color: var(--HeaderColor);
-}
+} */
 .header-link{
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 20px;
     text-align: center;
     color:var(--HeaderTextColor);
+}
+.header-link:hover{
+    font-weight: 600;
+    color: var(--HeaderColor);
 }
 .button-header{
     font-family: var(--second-family);
@@ -58,12 +70,23 @@
     color: var(--ButtonTextColor);
     background-color: var(--MainButtonColor);
     border-color: var(--ButtonLineColor);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius:35px ;
+    padding: 9px 38px 8px 38px;
 }
 .hero-text{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     color:var(--HeaderTextColor);
+}
+.arrow{
+    content: "";
+    display: block;
+    height:40px;
+    width:152px;
+    background-image:url(../image/arrow-section1.png);
+    margin-bottom: 30px;
 }
 .button{
     font-family: var(--second-family);
@@ -78,6 +101,21 @@
     background-image: url(../image/mainbackground1-min.png);
     width: 1440px;
     height: 740px;
+    padding-top: 180px;
+    padding-bottom: 179px;
+}
+.social-item:nth-child(2){
+    margin-top: 24px;
+    margin-bottom: 27px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+}
+.social-list{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
 }
 .section1{
     background-color: var(--HeaderTextColor);
@@ -86,10 +124,9 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 36px;
-    text-align: justify;
     color:var(--MainText);
     text-transform: uppercase;
-    
+    width: 1102px;
     margin: 0 auto;
     text-align: center;
 }
@@ -194,12 +231,7 @@
     height: 92px;
     text-align: center;
 }
-.container{
-    justify-content: center;
-    padding: 15px;
-    width: 1032px;
-    margin: 0 auto;
-}
+
 .section3{
     background-color: var(--HeaderTextColor);
 }
