@@ -220,6 +220,7 @@ text-transform: uppercase;
     font-size: 24px;
     text-align: center;
     color:var(--MainMentorColor);
+    margin-top:16px;
 }
 .text-mentor::after{
     content: "";
